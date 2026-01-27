@@ -11,7 +11,7 @@ env:
   SONAR_PROJECT_NAME: JuiceShop
   SONAR_URL: ${{ secrets.SONAR_URL }}
   DEFECTDOJO_URL: ${{ secrets.DEFECTDOJO_URL }}
-  DEFECTDOJO_ENGAGEMENT_ID: 1
+  DEFECTDOJO_ENGAGEMENT_ID: 3
 
 jobs:
   security-pipeline:
